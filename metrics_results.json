@@ -1,0 +1,390 @@
+{
+  "dataset_stats": {
+    "total_images": 34,
+    "total_samples": 272,
+    "unique_models": 8,
+    "models": [
+      "anthropic/claude-3.5-sonnet",
+      "anthropic/claude-3.7-sonnet",
+      "anthropic/claude-sonnet-4",
+      "google/gemini-2.5-flash-preview",
+      "google/gemini-2.5-flash-preview-05-20",
+      "google/gemma-3-27b-it",
+      "mistralai/mistral-medium-3",
+      "openai/gpt-4.1"
+    ],
+    "shape_counts": {
+      "cylinder": 23,
+      "cuboid": 10,
+      "sphere": 1
+    },
+    "orientation_counts": {
+      "vertical": 19,
+      "horizontal": 15
+    },
+    "grasp_counts": {
+      "type_0": 26,
+      "type_1": 8
+    },
+    "rotation_counts": {
+      "90_deg": 15,
+      "0_deg": 21
+    },
+    "finger_counts": {
+      "4_fingers": 19,
+      "2_fingers": 5,
+      "1_fingers": 8,
+      "3_fingers": 2
+    }
+  },
+  "numeric_metrics": {
+    "Parsed_Object_Dimensions_mm": {
+      "MAE": {
+        "google/gemini-2.5-flash-preview-05-20_dim1": 7.029411764705882,
+        "google/gemini-2.5-flash-preview-05-20_dim2": 8.588235294117647,
+        "google/gemini-2.5-flash-preview-05-20_dim3": 4.617647058823529,
+        "google/gemini-2.5-flash-preview_dim1": 9.352941176470589,
+        "google/gemini-2.5-flash-preview_dim2": 13.705882352941176,
+        "google/gemini-2.5-flash-preview_dim3": 6.235294117647059,
+        "mistralai/mistral-medium-3_dim1": 7.705882352941177,
+        "mistralai/mistral-medium-3_dim2": 10.5,
+        "mistralai/mistral-medium-3_dim3": 6.470588235294118,
+        "openai/gpt-4.1_dim1": 8.323529411764707,
+        "openai/gpt-4.1_dim2": 12.117647058823529,
+        "openai/gpt-4.1_dim3": 5.735294117647059,
+        "anthropic/claude-3.5-sonnet_dim1": 10.147058823529411,
+        "anthropic/claude-3.5-sonnet_dim2": 16.029411764705884,
+        "anthropic/claude-3.5-sonnet_dim3": 6.352941176470588,
+        "google/gemma-3-27b-it_dim1": 9.529411764705882,
+        "google/gemma-3-27b-it_dim2": 19.441176470588236,
+        "google/gemma-3-27b-it_dim3": 8.705882352941176,
+        "anthropic/claude-3.7-sonnet_dim1": 8.911764705882353,
+        "anthropic/claude-3.7-sonnet_dim2": 14.941176470588236,
+        "anthropic/claude-3.7-sonnet_dim3": 5.970588235294118,
+        "anthropic/claude-sonnet-4_dim1": 8.558823529411764,
+        "anthropic/claude-sonnet-4_dim2": 15.882352941176471,
+        "anthropic/claude-sonnet-4_dim3": 5.705882352941177
+      },
+      "MAE_STD": {
+        "google/gemini-2.5-flash-preview-05-20_dim1": 10.345460198212681,
+        "google/gemini-2.5-flash-preview-05-20_dim2": 9.792306845498736,
+        "google/gemini-2.5-flash-preview-05-20_dim3": 4.058503823725836,
+        "google/gemini-2.5-flash-preview_dim1": 10.905698329559796,
+        "google/gemini-2.5-flash-preview_dim2": 16.59647271483897,
+        "google/gemini-2.5-flash-preview_dim3": 5.390944605263925,
+        "mistralai/mistral-medium-3_dim1": 9.494671607135007,
+        "mistralai/mistral-medium-3_dim2": 10.224681787080653,
+        "mistralai/mistral-medium-3_dim3": 6.924956122679628,
+        "openai/gpt-4.1_dim1": 10.604440213850749,
+        "openai/gpt-4.1_dim2": 13.650608057739435,
+        "openai/gpt-4.1_dim3": 6.353826191078569,
+        "anthropic/claude-3.5-sonnet_dim1": 10.443496014100823,
+        "anthropic/claude-3.5-sonnet_dim2": 18.023653240244265,
+        "anthropic/claude-3.5-sonnet_dim3": 5.969936214760129,
+        "google/gemma-3-27b-it_dim1": 7.67055214715437,
+        "google/gemma-3-27b-it_dim2": 21.45884046051964,
+        "google/gemma-3-27b-it_dim3": 7.334565273474976,
+        "anthropic/claude-3.7-sonnet_dim1": 10.236519534486847,
+        "anthropic/claude-3.7-sonnet_dim2": 18.71291025951396,
+        "anthropic/claude-3.7-sonnet_dim3": 5.266348741371382,
+        "anthropic/claude-sonnet-4_dim1": 12.553863189029029,
+        "anthropic/claude-sonnet-4_dim2": 16.729271117138566,
+        "anthropic/claude-sonnet-4_dim3": 8.14041989004002
+      },
+      "ME": {
+        "google/gemini-2.5-flash-preview-05-20_dim1": -4.382352941176471,
+        "google/gemini-2.5-flash-preview-05-20_dim2": 2.3529411764705883,
+        "google/gemini-2.5-flash-preview-05-20_dim3": -0.9705882352941176,
+        "google/gemini-2.5-flash-preview_dim1": -7.0,
+        "google/gemini-2.5-flash-preview_dim2": 4.823529411764706,
+        "google/gemini-2.5-flash-preview_dim3": -2.8823529411764706,
+        "mistralai/mistral-medium-3_dim1": -2.176470588235294,
+        "mistralai/mistral-medium-3_dim2": 0.4411764705882353,
+        "mistralai/mistral-medium-3_dim3": -1.4705882352941178,
+        "openai/gpt-4.1_dim1": 1.2058823529411764,
+        "openai/gpt-4.1_dim2": 7.647058823529412,
+        "openai/gpt-4.1_dim3": 4.147058823529412,
+        "anthropic/claude-3.5-sonnet_dim1": 0.6176470588235294,
+        "anthropic/claude-3.5-sonnet_dim2": 12.088235294117647,
+        "anthropic/claude-3.5-sonnet_dim3": 2.3529411764705883,
+        "google/gemma-3-27b-it_dim1": 2.1176470588235294,
+        "google/gemma-3-27b-it_dim2": 15.264705882352942,
+        "google/gemma-3-27b-it_dim3": 4.176470588235294,
+        "anthropic/claude-3.7-sonnet_dim1": 1.3823529411764706,
+        "anthropic/claude-3.7-sonnet_dim2": 9.882352941176471,
+        "anthropic/claude-3.7-sonnet_dim3": 2.264705882352941,
+        "anthropic/claude-sonnet-4_dim1": -0.2647058823529412,
+        "anthropic/claude-sonnet-4_dim2": 5.117647058823529,
+        "anthropic/claude-sonnet-4_dim3": 2.411764705882353
+      },
+      "ME_STD": {
+        "google/gemini-2.5-flash-preview-05-20_dim1": 11.714783786717968,
+        "google/gemini-2.5-flash-preview-05-20_dim2": 12.810570894522954,
+        "google/gemini-2.5-flash-preview-05-20_dim3": 6.070591085270649,
+        "google/gemini-2.5-flash-preview_dim1": 12.546384527260527,
+        "google/gemini-2.5-flash-preview_dim2": 20.97683678872722,
+        "google/gemini-2.5-flash-preview_dim3": 7.722254722105428,
+        "mistralai/mistral-medium-3_dim1": 12.03297085275505,
+        "mistralai/mistral-medium-3_dim2": 14.649214346471217,
+        "mistralai/mistral-medium-3_dim3": 9.36273996509458,
+        "openai/gpt-4.1_dim1": 13.426881315797504,
+        "openai/gpt-4.1_dim2": 16.574044827311052,
+        "openai/gpt-4.1_dim3": 7.487763951710804,
+        "anthropic/claude-3.5-sonnet_dim1": 14.548124410914024,
+        "anthropic/claude-3.5-sonnet_dim2": 20.87267795758626,
+        "anthropic/claude-3.5-sonnet_dim3": 8.394263983225045,
+        "google/gemma-3-27b-it_dim1": 12.048345519521984,
+        "google/gemma-3-27b-it_dim2": 24.60548578662587,
+        "google/gemma-3-27b-it_dim3": 10.589869154985966,
+        "anthropic/claude-3.7-sonnet_dim1": 13.5016659230986,
+        "anthropic/claude-3.7-sonnet_dim2": 21.81171394118085,
+        "anthropic/claude-3.7-sonnet_dim3": 7.6323954436082815,
+        "anthropic/claude-sonnet-4_dim1": 15.191539486579968,
+        "anthropic/claude-sonnet-4_dim2": 22.49282853800603,
+        "anthropic/claude-sonnet-4_dim3": 9.64400956113301
+      }
+    },
+    "Parsed_Hand_Rotation_Deg": {
+      "MAE": {
+        "google/gemini-2.5-flash-preview-05-20": 26.470588235294116,
+        "google/gemini-2.5-flash-preview": 45.588235294117645,
+        "mistralai/mistral-medium-3": 37.05882352941177,
+        "openai/gpt-4.1": 47.64705882352941,
+        "anthropic/claude-3.5-sonnet": 21.176470588235293,
+        "google/gemma-3-27b-it": 13.235294117647058,
+        "anthropic/claude-3.7-sonnet": 34.411764705882355,
+        "anthropic/claude-sonnet-4": 14.558823529411764
+      },
+      "MAE_STD": {
+        "google/gemini-2.5-flash-preview-05-20": 41.00805895984324,
+        "google/gemini-2.5-flash-preview": 62.36473251439226,
+        "mistralai/mistral-medium-3": 44.29376611062753,
+        "openai/gpt-4.1": 44.922077863615954,
+        "anthropic/claude-3.5-sonnet": 38.17642526961871,
+        "google/gemma-3-27b-it": 31.87480917915608,
+        "anthropic/claude-3.7-sonnet": 43.73658964021316,
+        "anthropic/claude-sonnet-4": 32.230047340286255
+      },
+      "ME": {
+        "google/gemini-2.5-flash-preview-05-20": -10.588235294117647,
+        "google/gemini-2.5-flash-preview": 28.529411764705884,
+        "mistralai/mistral-medium-3": 15.882352941176471,
+        "openai/gpt-4.1": 5.294117647058823,
+        "anthropic/claude-3.5-sonnet": 21.176470588235293,
+        "google/gemma-3-27b-it": 7.9411764705882355,
+        "anthropic/claude-3.7-sonnet": 34.411764705882355,
+        "anthropic/claude-sonnet-4": -1.3235294117647058
+      },
+      "ME_STD": {
+        "google/gemini-2.5-flash-preview-05-20": 47.64705882352941,
+        "google/gemini-2.5-flash-preview": 71.78941233345897,
+        "mistralai/mistral-medium-3": 55.52517431489038,
+        "openai/gpt-4.1": 65.27026591378916,
+        "anthropic/claude-3.5-sonnet": 38.17642526961871,
+        "google/gemma-3-27b-it": 33.58741113648402,
+        "anthropic/claude-3.7-sonnet": 43.73658964021316,
+        "anthropic/claude-sonnet-4": 35.34096156040241
+      }
+    },
+    "Parsed_Hand_Aperture_mm": {
+      "MAE": {
+        "google/gemini-2.5-flash-preview-05-20": 7.323529411764706,
+        "google/gemini-2.5-flash-preview": 14.176470588235293,
+        "mistralai/mistral-medium-3": 9.941176470588236,
+        "openai/gpt-4.1": 5.735294117647059,
+        "anthropic/claude-3.5-sonnet": 9.794117647058824,
+        "google/gemma-3-27b-it": 16.11764705882353,
+        "anthropic/claude-3.7-sonnet": 6.147058823529412,
+        "anthropic/claude-sonnet-4": 9.794117647058824
+      },
+      "MAE_STD": {
+        "google/gemini-2.5-flash-preview-05-20": 7.399207382969731,
+        "google/gemini-2.5-flash-preview": 23.368493857977057,
+        "mistralai/mistral-medium-3": 11.021212638710935,
+        "openai/gpt-4.1": 6.141990592870244,
+        "anthropic/claude-3.5-sonnet": 12.768940745060455,
+        "google/gemma-3-27b-it": 19.39339594368077,
+        "anthropic/claude-3.7-sonnet": 5.636709266006272,
+        "anthropic/claude-sonnet-4": 10.837786326402057
+      },
+      "ME": {
+        "google/gemini-2.5-flash-preview-05-20": -4.264705882352941,
+        "google/gemini-2.5-flash-preview": -3.235294117647059,
+        "mistralai/mistral-medium-3": -3.235294117647059,
+        "openai/gpt-4.1": 0.4411764705882353,
+        "anthropic/claude-3.5-sonnet": -0.9705882352941176,
+        "google/gemma-3-27b-it": 10.588235294117647,
+        "anthropic/claude-3.7-sonnet": 0.14705882352941177,
+        "anthropic/claude-sonnet-4": 5.4411764705882355
+      },
+      "ME_STD": {
+        "google/gemini-2.5-flash-preview-05-20": 9.49708569394847,
+        "google/gemini-2.5-flash-preview": 27.140222834415532,
+        "mistralai/mistral-medium-3": 14.485406090937774,
+        "openai/gpt-4.1": 8.391841894400946,
+        "anthropic/claude-3.5-sonnet": 16.06326699998487,
+        "google/gemma-3-27b-it": 22.886057465137544,
+        "anthropic/claude-3.7-sonnet": 8.338896643551466,
+        "anthropic/claude-sonnet-4": 13.556398915534075
+      }
+    },
+    "Parsed_Num_Fingers": {
+      "MAE": {
+        "google/gemini-2.5-flash-preview-05-20": 0.6176470588235294,
+        "google/gemini-2.5-flash-preview": 0.5588235294117647,
+        "mistralai/mistral-medium-3": 0.5,
+        "openai/gpt-4.1": 0.5294117647058824,
+        "anthropic/claude-3.5-sonnet": 0.5,
+        "google/gemma-3-27b-it": 0.7352941176470589,
+        "anthropic/claude-3.7-sonnet": 0.6176470588235294,
+        "anthropic/claude-sonnet-4": 0.8823529411764706
+      },
+      "MAE_STD": {
+        "google/gemini-2.5-flash-preview-05-20": 1.057597329197953,
+        "google/gemini-2.5-flash-preview": 0.9453034517640115,
+        "mistralai/mistral-medium-3": 0.7376433061167325,
+        "openai/gpt-4.1": 0.7759356446042893,
+        "anthropic/claude-3.5-sonnet": 0.8828430011649196,
+        "google/gemma-3-27b-it": 1.0090421646122614,
+        "anthropic/claude-3.7-sonnet": 0.7282010825376439,
+        "anthropic/claude-sonnet-4": 0.866524697803308
+      },
+      "ME": {
+        "google/gemini-2.5-flash-preview-05-20": 0.38235294117647056,
+        "google/gemini-2.5-flash-preview": 0.2647058823529412,
+        "mistralai/mistral-medium-3": -0.3235294117647059,
+        "openai/gpt-4.1": -0.4117647058823529,
+        "anthropic/claude-3.5-sonnet": 0.20588235294117646,
+        "google/gemma-3-27b-it": 0.3235294117647059,
+        "anthropic/claude-3.7-sonnet": -0.08823529411764706,
+        "anthropic/claude-sonnet-4": -0.7058823529411765
+      },
+      "ME_STD": {
+        "google/gemini-2.5-flash-preview-05-20": 1.1635317908736755,
+        "google/gemini-2.5-flash-preview": 1.0657453489407904,
+        "mistralai/mistral-medium-3": 0.8303290713819472,
+        "openai/gpt-4.1": 0.8442764761416073,
+        "anthropic/claude-3.5-sonnet": 0.9934909267090904,
+        "google/gemma-3-27b-it": 1.2058823529411764,
+        "anthropic/claude-3.7-sonnet": 0.9507782279555655,
+        "anthropic/claude-sonnet-4": 1.0154515589195334
+      }
+    }
+  },
+  "categorical_metrics": {
+    "Parsed_Object_Shape": {
+      "google/gemini-2.5-flash-preview-05-20": 1.0,
+      "google/gemini-2.5-flash-preview": 1.0,
+      "mistralai/mistral-medium-3": 0.9705882352941176,
+      "openai/gpt-4.1": 1.0,
+      "anthropic/claude-3.5-sonnet": 1.0,
+      "google/gemma-3-27b-it": 1.0,
+      "anthropic/claude-3.7-sonnet": 1.0,
+      "anthropic/claude-sonnet-4": 0.9705882352941176
+    },
+    "Parsed_Object_Orientation": {
+      "google/gemini-2.5-flash-preview-05-20": 0.9705882352941176,
+      "google/gemini-2.5-flash-preview": 0.9705882352941176,
+      "mistralai/mistral-medium-3": 0.8529411764705882,
+      "openai/gpt-4.1": 0.9705882352941176,
+      "anthropic/claude-3.5-sonnet": 1.0,
+      "google/gemma-3-27b-it": 0.9117647058823529,
+      "anthropic/claude-3.7-sonnet": 1.0,
+      "anthropic/claude-sonnet-4": 0.9705882352941176
+    },
+    "Parsed_Grasp_Type": {
+      "google/gemini-2.5-flash-preview-05-20": 0.8235294117647058,
+      "google/gemini-2.5-flash-preview": 0.9117647058823529,
+      "mistralai/mistral-medium-3": 0.5882352941176471,
+      "openai/gpt-4.1": 0.8235294117647058,
+      "anthropic/claude-3.5-sonnet": 0.8529411764705882,
+      "google/gemma-3-27b-it": 0.4411764705882353,
+      "anthropic/claude-3.7-sonnet": 0.8529411764705882,
+      "anthropic/claude-sonnet-4": 0.7941176470588235
+    },
+    "Parsed_Object_Name": {
+      "google/gemini-2.5-flash-preview-05-20": 0.8823529411764706,
+      "google/gemini-2.5-flash-preview": 0.9117647058823529,
+      "mistralai/mistral-medium-3": 0.9705882352941176,
+      "openai/gpt-4.1": 0.9411764705882353,
+      "anthropic/claude-3.5-sonnet": 0.9117647058823529,
+      "google/gemma-3-27b-it": 0.8823529411764706,
+      "anthropic/claude-3.7-sonnet": 0.9117647058823529,
+      "anthropic/claude-sonnet-4": 0.8235294117647058
+    }
+  },
+  "latency_cost_metrics": {
+    "google/gemini-2.5-flash-preview-05-20": {
+      "avg_latency": 2.602882352941176,
+      "std_latency": 0.4664474873627503,
+      "min_latency": 1.89,
+      "max_latency": 4.026,
+      "avg_cost": 0.0010627411764705884,
+      "total_cost": 0.036133200000000004,
+      "count": 34
+    },
+    "google/gemini-2.5-flash-preview": {
+      "avg_latency": 3.2560000000000002,
+      "std_latency": 0.4662809661501736,
+      "min_latency": 2.455,
+      "max_latency": 4.749,
+      "avg_cost": 0.001062635294117647,
+      "total_cost": 0.0361296,
+      "count": 34
+    },
+    "mistralai/mistral-medium-3": {
+      "avg_latency": 3.6274117647058826,
+      "std_latency": 1.2919800194919766,
+      "min_latency": 2.406,
+      "max_latency": 8.769,
+      "avg_cost": 0.0009678588235294117,
+      "total_cost": 0.0329072,
+      "count": 34
+    },
+    "openai/gpt-4.1": {
+      "avg_latency": 6.713529411764706,
+      "std_latency": 1.641559388624567,
+      "min_latency": 4.444,
+      "max_latency": 11.135,
+      "avg_cost": 0.004252823529411765,
+      "total_cost": 0.144596,
+      "count": 34
+    },
+    "anthropic/claude-3.5-sonnet": {
+      "avg_latency": 7.136764705882353,
+      "std_latency": 1.3432255402760591,
+      "min_latency": 4.845,
+      "max_latency": 10.253,
+      "avg_cost": 0.012145676470588234,
+      "total_cost": 0.41295299999999996,
+      "count": 34
+    },
+    "google/gemma-3-27b-it": {
+      "avg_latency": 6.527529411764707,
+      "std_latency": 3.9596586418168416,
+      "min_latency": 2.441,
+      "max_latency": 16.67,
+      "avg_cost": 0.00016248823529411765,
+      "total_cost": 0.0055246,
+      "count": 34
+    },
+    "anthropic/claude-3.7-sonnet": {
+      "avg_latency": 9.414000000000001,
+      "std_latency": 3.612142518749444,
+      "min_latency": 5.74,
+      "max_latency": 18.625,
+      "avg_cost": 0.012139058823529413,
+      "total_cost": 0.41272800000000004,
+      "count": 34
+    },
+    "anthropic/claude-sonnet-4": {
+      "avg_latency": 7.69870588235294,
+      "std_latency": 1.3299849515988897,
+      "min_latency": 5.986,
+      "max_latency": 10.371,
+      "avg_cost": 0.012151852941176471,
+      "total_cost": 0.413163,
+      "count": 34
+    }
+  }
+}

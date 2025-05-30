@@ -1,0 +1,507 @@
+{
+  "photo_20250520-104602.png": {
+    "description_notes": "White pictured mug vertical",
+    "image_name": "photo_20250520-104602.png",
+    "object_names": [
+      "mug",
+      "cup",
+      "coffee_mug"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "80x95x80",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 85,
+    "num_fingers": 4
+  },
+  "photo_20250520-122607.png": {
+    "description_notes": "Eraser horizontal",
+    "image_name": "photo_20250520-122607.png",
+    "object_names": [
+      "eraser"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "20x35x10",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0.0,
+    "hand_aperture_mm": 40,
+    "num_fingers": 2
+  },
+  "photo_20250507-102803.png": {
+    "description_notes": "Vertical boardmarker",
+    "image_name": "photo_20250507-102803.png",
+    "object_names": [
+      "whiteboard marker",
+      "marker"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "15x140x15",
+    "object_orientation": "vertical",
+    "grasp_type": 1,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 20,
+    "num_fingers": 1
+  },
+  "photo_20250520-103556.png": {
+    "description_notes": "Clear vertical water glass",
+    "image_name": "photo_20250520-103556.png",
+    "object_names": [
+      "glass",
+      "glass cup"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "85x85x83",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 90,
+    "num_fingers": 4
+  },
+  "photo_20250520-103634.png": {
+    "description_notes": "Spray horizontal",
+    "image_name": "photo_20250520-103634.png",
+    "object_names": [
+      "spray_bottle",
+      "spray can",
+      "spray bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "50x195x50",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 55,
+    "num_fingers": 4
+  },
+  "photo_20250507-103459.png": {
+    "description_notes": "plastic horizontal bottle",
+    "image_name": "photo_20250507-103459.png",
+    "object_names": [
+      "water_bottle",
+      "water bottle",
+      "bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "65x210x65",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 70,
+    "num_fingers": 4
+  },
+  "photo_20250507-103449.png": {
+    "image_name": "photo_20250507-103449.png",
+    "object_names": [
+      "water_bottle",
+      "water bottle",
+      "bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "65x210x65",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 70,
+    "num_fingers": 4
+  },
+  "photo_20250520-103546.png": {
+    "image_name": "photo_20250520-103546.png",
+    "object_names": [
+      "Intel Realsense box",
+      "box"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "93x93x40",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": [0, 90],
+    "hand_aperture_mm": 45,
+    "num_fingers": 4
+  },
+  "photo_20250520-103801.png": {
+    "image_name": "photo_20250520-103801.png",
+    "object_names": [
+      "teacup",
+      "mug",
+      "tea cup",
+      "cup"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "70x70x65",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90.0,
+    "hand_aperture_mm": 70,
+    "num_fingers": 3
+  },
+  "photo_20250520-104612.png": {
+    "image_name": "photo_20250520-104612.png",
+    "object_names": [
+      "mug",
+      "cup"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "80x95x80",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 85,
+    "num_fingers": 4
+  },
+  "photo_20250520-103747.png": {
+    "image_name": "photo_20250520-103747.png",
+    "object_names": [
+      "pencil sharpener"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "37x60x37",
+    "object_orientation": "horizontal",
+    "grasp_type": 1,
+    "hand_rotation_deg": 90.0,
+    "hand_aperture_mm": 65,
+    "num_fingers": 1
+  },
+  "photo_20250507-103113.png": {
+    "image_name": "photo_20250507-103113.png",
+    "object_names": [
+      "coffee mug",
+      "cup"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "80x100x80",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 85,
+    "num_fingers": 4
+  },
+  "photo_20250520-134629.png": {
+    "description_notes": "Pepsi bottle vertical",
+    "image_name": "photo_20250520-134629.png",
+    "object_names": [
+      "water_bottle",
+      "bottle",
+      "plastic bottle",
+      "water bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "70x220x70",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 75,
+    "num_fingers": 4
+  },
+  "photo_20250520-103640.png": {
+    "description_notes": "Spray bottle vertical",
+    "image_name": "photo_20250520-103640.png",
+    "object_names": [
+      "spray_bottle",
+      "spray bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "50x195x50",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 55,
+    "num_fingers": 4
+  },
+  "photo_20250520-103655.png": {
+    "image_name": "photo_20250520-103655.png",
+    "object_names": [
+      "glue_stick",
+      "glue stick"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "25x93x25",
+    "object_orientation": "vertical",
+    "grasp_type": 1,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 25,
+    "num_fingers": 1
+  },
+  "photo_20250507-102731.png": {
+    "image_name": "photo_20250507-102731.png",
+    "object_names": [
+      "orange"
+    ],
+    "object_shape": "sphere",
+    "object_dimensions_mm": "70x70x70",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 75,
+    "num_fingers": 4
+  },
+  "photo_20250520-103534.png": {
+    "image_name": "photo_20250520-103534.png",
+    "object_names": [
+      "Intel Realsense D400 box",
+      "intel_realsense_camera_box",
+      "intel realsense box",
+      "box",
+      "camera box",
+      "electronics box"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "93x93x40",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 100,
+    "num_fingers": 4
+  },
+  "photo_20250520-103727.png": {
+    "image_name": "photo_20250520-103727.png",
+    "object_names": [
+      "box",
+      "staple remover",
+      "staple remover box",
+      "staple box"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "49x56x30",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 55,
+    "num_fingers": 2
+  },
+  "photo_20250520-121948.png": {
+    "description_notes": "Pepsi bottle horizontal",
+    "image_name": "photo_20250520-121948.png",
+    "object_names": [
+      "bottle",
+      "soda bottle",
+      "pepsi_bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "70x220x70",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 75,
+    "num_fingers": 4
+  },
+  "photo_20250507-103601.png": {
+    "image_name": "photo_20250507-103601.png",
+    "object_names": [
+      "mobile phone",
+      "smartphone"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "85x168x15",
+    "object_orientation": "vertical",
+    "grasp_type": 1,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 15,
+    "num_fingers": 1
+  },
+  "photo_20250507-103342.png": {
+    "image_name": "photo_20250507-103342.png",
+    "object_names": [
+      "water_bottle",
+      "bottle",
+      "water bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "65x180x65",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 70,
+    "num_fingers": 4
+  },
+  "photo_20250507-103356.png": {
+    "image_name": "photo_20250507-103356.png",
+    "object_names": [
+      "water_bottle",
+      "water bottle",
+      "bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "65x180x65",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 70,
+    "num_fingers": 4
+  },
+  "photo_20250520-103702.png": {
+    "image_name": "photo_20250520-103702.png",
+    "object_names": [
+      "glue_stick",
+      "glue stick"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "25x90x25",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 30,
+    "num_fingers": 2
+  },
+  "photo_20250520-103716.png": {
+    "image_name": "photo_20250520-103716.png",
+    "object_names": [
+      "staple_box",
+      "staple box",
+      "staple remover",
+      "staple remover box"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "49x56x30",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": [90, 0],
+    "hand_aperture_mm": 54,
+    "num_fingers": 2
+  },
+  "photo_20250520-134636.png": {
+    "image_name": "photo_20250520-134636.png",
+    "object_names": [
+      "soda bottle",
+      "bottle",
+      "plastic bottle",
+      "pepsi_bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "70x200x70",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 75,
+    "num_fingers": 4
+  },
+  "photo_20250520-103505.png": {
+    "image_name": "photo_20250520-103505.png",
+    "object_names": [
+      "dvd case",
+      "DVD case",
+      "dvd_case"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "125x142x10",
+    "object_orientation": "vertical",
+    "grasp_type": 1,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 15,
+    "num_fingers": 1
+  },
+  "photo_20250520-121941.png": {
+    "image_name": "photo_20250520-121941.png",
+    "object_names": [
+      "bottle",
+      "soda bottle",
+      "pepsi_bottle"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "70x220x70",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 75,
+    "num_fingers": 4
+  },
+  "photo_20250520-103738.png": {
+    "image_name": "photo_20250520-103738.png",
+    "object_names": [
+      "pencil sharpener",
+      "pencil_sharpener"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "37x60x37",
+    "object_orientation": "vertical",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 42,
+    "num_fingers": 2
+  },
+  "photo_20250520-103922.png": {
+    "image_name": "photo_20250520-103922.png",
+    "object_names": [
+      "book"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "170x240x8",
+    "object_orientation": "vertical",
+    "grasp_type": 1,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 13,
+    "num_fingers": 1
+  },
+  "photo_20250520-103615.png": {
+    "image_name": "photo_20250520-103615.png",
+    "object_names": [
+      "glass",
+      "cup"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "85x85x83",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 90,
+    "num_fingers": 4
+  },
+  "photo_20250507-103051.png": {
+    "image_name": "photo_20250507-103051.png",
+    "object_names": [
+      "whiteboard_marker",
+      "marker",
+      "whiteboard marker"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "15x140x15",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 20,
+    "num_fingers": 4
+  },
+  "photo_20250520-122554.png": {
+    "image_name": "photo_20250520-122554.png",
+    "object_names": [
+      "eraser"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "20x35x10",
+    "object_orientation": "vertical",
+    "grasp_type": 1,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 15,
+    "num_fingers": 1
+  },
+  "photo_20250520-103808.png": {
+    "image_name": "photo_20250520-103808.png",
+    "object_names": [
+      "teacup",
+      "cup"
+    ],
+    "object_shape": "cylinder",
+    "object_dimensions_mm": "70x70x65",
+    "object_orientation": "horizontal",
+    "grasp_type": 0,
+    "hand_rotation_deg": 90,
+    "hand_aperture_mm": 75,
+    "num_fingers": 3
+  },
+  "photo_20250507-102628.png": {
+    "image_name": "photo_20250507-102628.png",
+    "object_names": [
+      "credit card",
+      "card",
+      "credit_card"
+    ],
+    "object_shape": "cuboid",
+    "object_dimensions_mm": "55x85x1",
+    "object_orientation": "vertical",
+    "grasp_type": 1,
+    "hand_rotation_deg": 0,
+    "hand_aperture_mm": 6,
+    "num_fingers": 1
+  }
+}

@@ -1,0 +1,9 @@
+pyside6
+opencv-python
+numpy
+openai
+requests
+tiktoken
+pyrealsense2; sys_platform != "darwin"
+pyrealsense2-macosx; sys_platform == "darwin"
+pandas
