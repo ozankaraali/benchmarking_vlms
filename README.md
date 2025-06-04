@@ -1,4 +1,4 @@
-# Can VLMs be Used to Control Bionic Hands? An Evaluation of Object Perception and Grasp Inference Capabilities
+# Using Visual Language Models to Control Bionic Hands: Assessment of Object Perception and Grasp Inference
 
 This repository contains the code and data for benchmarking Vision-Language Models (VLMs) on bionic hand grasp decision tasks. Our work evaluates how well different VLMs can perceive objects and predict grasp parameters from single RGB images.
 
